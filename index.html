@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Simulador de cores</title>
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <div>
+      <div id="Red">
+        <p>
+          (R) Vermelho:
+          <input
+            id="rangeRedFrequencies"
+            type="range"
+            min="0"
+            max="255"
+            value="0"
+            step="1"
+          />
+          <input
+            type="text"
+            id="inputRedCurrentFrequencies"
+            disabled
+            readonly
+            value="0"
+          />
+        </p>
+      </div>
+      <div id="Green">
+        <p>
+          (G) Verde:
+          <input
+            id="rangeGreenFrequencies"
+            type="range"
+            min="0"
+            max="255"
+            value="0"
+            step="1"
+          />
+          <input
+            type="text"
+            id="inputGreenCurrentFrequencies"
+            disabled
+            readonly
+            value="0"
+          />
+        </p>
+      </div>
+      <div id="Blue">
+        <p>
+          (B) Azul:
+          <input
+            id="rangeBlueFrequencies"
+            type="range"
+            min="0"
+            max="255"
+            value="0"
+            step="1"
+          />
+          <input
+            type="text"
+            id="inputBlueCurrentFrequencies"
+            disabled
+            readonly
+            value="0"
+          />
+        </p>
+      </div>
+
+      <div id="square"></div>
+    </div>
+    <script src="./js/script.js"></script>
+  </body>
+</html>
